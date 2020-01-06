@@ -10,23 +10,16 @@ License:        BSD
 URL:            https://github.com/rbarrois/python-semanticversion
 Source0:        %{url}/archive/v%{version}/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
+BuildRequires:  python-devel
+BuildRequires:  python-setuptools
+BuildRequires:  python-django
+%{?python_provide:%python_provide python-%{pypi_name}}
 
 %global _description \
 This small python library provides a few tools to handle semantic versioning\
 in Python.
 
 %description %{_description}
-
-%package -n     python-%{pypi_name}
-Summary:        %{summary}
-BuildRequires:  python-devel
-BuildRequires:  python-setuptools
-BuildRequires:  python-django
-%{?python_provide:%python_provide python-%{pypi_name}}
-
-%description -n python-%{pypi_name} %{_description}
-
-Python 3 version.
 
 %package doc
 Summary:        Documentation for python-%{pypi_name}
