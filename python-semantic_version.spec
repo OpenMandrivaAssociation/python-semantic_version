@@ -39,16 +39,8 @@ rm docs/credits.rst
 %build
 %py_build
 
-# generate html docs
-sphinx-build-3 docs html
-# remove the sphinx-build leftovers
-rm -rf html/.{doctrees,buildinfo}
-
 %install
 %py_install
-
-%check
-# Seems like it's just stuck in koji
 
 #{__python} setup.py test
 
