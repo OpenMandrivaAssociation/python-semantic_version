@@ -52,4 +52,3 @@ rm docs/credits.rst
 
 %files doc
 %license LICENSE
-%doc html
