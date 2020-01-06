@@ -8,7 +8,7 @@ Group:          Development/Python
 
 License:        BSD
 URL:            https://github.com/rbarrois/python-semanticversion
-Source0:        %{url}/archive/v%{version}/%{pypi_name}-%{version}.tar.gz
+Source0:        https://github.com/rbarrois/python-semanticversion/archive/%{version}/python-semanticversion-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python-devel
 BuildRequires:  python-setuptools
