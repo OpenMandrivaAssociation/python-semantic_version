@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        2.8.4
-Release:        1
+Release:        2
 Summary:        Library implementing the 'SemVer' scheme
 Group:          Development/Python
 
