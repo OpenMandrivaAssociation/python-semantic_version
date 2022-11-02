@@ -1,8 +1,8 @@
 %global pypi_name semantic_version
 
 Name:		python-%{pypi_name}
-Version:	2.8.4
-Release:	3
+Version:	2.10.0
+Release:	1
 Summary:	Library implementing the 'SemVer' scheme
 Group:		Development/Python
 License:	BSD
